@@ -1,0 +1,16 @@
+.stack    
+3                 
+.code    
+sti 0 1  
+sti 1 0  
+sti 2 0  
+cmp 0 5001  
+jump 8   
+adda 1 0  
+addd 0 1   
+jump 3 
+print 1 
+div 1 2  
+str 2 1  
+print 2  
+halt    
